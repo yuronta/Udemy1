@@ -6,7 +6,27 @@ h1{
 div.content{
     background-color: #fcc;
     width: 600px;
+    margin: 10px auto;
+    border: 5px solid #d1d1d1;
+    padding: 8px;
 }
-p{
-    font-size: 14px;
+input{
+    border: none;
+    border-bottom: 1px solid #b1b1b1;
+    font-size: 16px;
+    /* inputタグはフォントサイズを16px以上にする！！　拡大されちゃうらしい */
+    /* コメントアウトはctrl+? */
+    padding: 8px;
+}
+button{
+    width: 100%;
+    /* 100%にすると、その要素が入る範囲の100% */
+    background-color:  #2096f3;
+    color:  #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 3px;
+    /* 角をとるプロパティ */
+    box-shadow: 0 0 8px rgba(0,0,0.4);
+    /* 影を付けるプロパティ　影のx軸、影のY軸、ボケ具合　色rgba　→aは不透明度 */
 }
