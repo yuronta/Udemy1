@@ -1,22 +1,26 @@
 @import url(sanitize.css);
+
+body{
+    background-color: #fafafa;
+}
 h1{
     font-size: 24px; 
     margin: 0;
-    background-color: #ffcccc;
+
 }
 label{
     display: block;
     margin-bottom: .5em;
     /* em=1文字分なので、0.5文字分 */
-    background-color: #ffcccc;
 }
 /* レイアウトの調整などしたいときはblockにする */
 
 div.content{
+    background-color: #fff;
     width: 600px;
     margin: 10px auto;
     border: 5px solid #d1d1d1;
-    padding: 8px;
+    padding: 30px;
 }
 input{
     border: none;
@@ -38,4 +42,11 @@ button{
     /* 角をとるプロパティ */
     box-shadow: 0 0 8px rgba(0,0,0.4);
     /* 影を付けるプロパティ　影のx軸、影のY軸、ボケ具合　色rgba　→aは不透明度 */
+}
+span.required{
+    background-color: #fee;
+    color: #f33;
+    padding: 3px;
+    font-weight: bold;
+    margin-left: .3em;
 }
