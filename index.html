@@ -10,8 +10,9 @@
         <div class="content">
             <h1>入会申し込み</h1>
             <p>入会するには、次のフォームに必要事項を記入してください。</p>
-            <p>メールアドレス：<input type="email" name="mymail" size="3"></p>
-            <p>パスワード：<input type="password" name="mypassword"></p>
+            <p><label for="mymail"> メールアドレス</label><input id="mymail" type="email" name="mymail" size="3"></p>
+            <p><label for="mypassword">パスワード</label><input id="mypassword" type="password" name="mypassword"></p>
+            <!-- inputとlabelの紐づけは必須というルール -->
             <p><button type="submit">登録する</button></p>
         </div>
     </body>

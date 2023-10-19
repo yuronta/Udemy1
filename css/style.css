@@ -2,9 +2,17 @@
 h1{
     font-size: 24px; 
     margin: 0;
+    background-color: #ffcccc;
 }
+label{
+    display: block;
+    margin-bottom: .5em;
+    /* em=1文字分なので、0.5文字分 */
+    background-color: #ffcccc;
+}
+/* レイアウトの調整などしたいときはblockにする */
+
 div.content{
-    background-color: #fcc;
     width: 600px;
     margin: 10px auto;
     border: 5px solid #d1d1d1;
@@ -17,6 +25,7 @@ input{
     /* inputタグはフォントサイズを16px以上にする！！　拡大されちゃうらしい */
     /* コメントアウトはctrl+? */
     padding: 8px;
+    width: 100%;
 }
 button{
     width: 100%;
